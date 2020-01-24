@@ -22,7 +22,7 @@ services:
         aliases:
           - emulator
     devices: [/dev/kvm]
-    shm_size: 128M
+    shm_size: 1G
     expose:
       - "8556"
 
